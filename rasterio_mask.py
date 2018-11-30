@@ -1,5 +1,4 @@
-import fiona, rasterio, gdal
-from osgeo import osr
+import fiona, rasterio, gdal, rasterio.mask
 
 def clipper(InputTIF, InputSHP, OutTIF):
     with fiona.open(InputSHP, "r") as shapefile:
