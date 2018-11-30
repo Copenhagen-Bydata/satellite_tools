@@ -1,4 +1,4 @@
-import fiona, rasterio, gdal, rasterio.mask
+import fiona, rasterio, rasterio.mask
 
 #
 # https://rasterio.readthedocs.io/en/latest/api/rasterio.mask.html
