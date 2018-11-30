@@ -3,3 +3,7 @@
 list of useful tools:
 * rasterio
 * numpy
+* GDAL
+* osgeo
+* fiona
+* skimage
